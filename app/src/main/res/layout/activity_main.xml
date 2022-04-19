@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidthy="24dp"
+    android:minHeight="24dp"
+    android:background="@drawable/caritasfelices"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/main_Layout"
+        android:layout_width="244dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="188dp"
+        android:background="#83E1ED"
+        android:text="@string/b_login"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="292dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="60dp"
+        android:alpha="0.7"
+        android:background="@color/black"
+        android:backgroundTint="#B4000000"
+        android:ems="10"
+        android:hint="@string/te_usuario"
+        android:inputType="textPersonName"
+        android:paddingStart="20dp"
+        android:textAlignment="viewStart"
+        android:textColorHint="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="292dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="40dp"
+        android:alpha="0.7"
+        android:background="@color/black"
+        android:backgroundTint="#B5000000"
+        android:ems="10"
+        android:hint="@string/te_contraseña"
+        android:inputType="textPassword"
+        android:paddingStart="20dp"
+        android:password="false"
+        android:textAlignment="textStart"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorHint="#FFFEFE"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="160dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="36dp"
+        android:background="#FF9800"
+        android:contextClickable="false"
+        android:cursorVisible="false"
+        android:paddingStart="1sp"
+        android:paddingLeft="1sp"
+        android:paddingTop="1sp"
+        android:paddingEnd="1sp"
+        android:text="@string/b_ayuda"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/main_Layout" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="337dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="164dp"
+        android:fontFamily="@font/giveaway"
+        android:text="@string/app_name"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="245dp"
+        android:layout_height="28dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/tv_crear"
+        android:textColor="#128CDD"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

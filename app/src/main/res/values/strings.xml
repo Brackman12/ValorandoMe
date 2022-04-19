@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ValorandoMe</string>
+    <string name="te_usuario">Usuario</string>
+    <string name="te_contraseña">Contraseña</string>
+    <string name="b_login">Iniciar Sesion</string>
+    <string name="b_ayuda">Ayuda</string>
+    <string name="tv_crear">¿No tienes cuenta? ¡Registrate Aqui!</string>
+    <string name="tv_usuario">Usuario</string>
+</resources>
