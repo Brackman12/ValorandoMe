@@ -4,21 +4,22 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:minWidthy="24dp"
-    android:minHeight="24dp"
     android:background="@drawable/caritasfelices"
+    android:minHeight="12dp"
+    android:minWidth="24dp"
     tools:context=".MainActivity">
 
 
     <Button
-        android:id="@+id/main_Layout"
-        android:layout_width="244dp"
+        android:id="@+id/button"
+        android:layout_width="247dp"
         android:layout_height="48dp"
-        android:layout_marginTop="188dp"
-        android:background="#83E1ED"
+        android:layout_marginTop="140dp"
+        android:backgroundTint="@color/teal_700"
+        android:backgroundTintMode="add"
+        android:onClick="Siguiente"
         android:text="@string/b_login"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
 
@@ -66,18 +67,14 @@
         android:layout_width="160dp"
         android:layout_height="48dp"
         android:layout_marginTop="36dp"
-        android:background="#FF9800"
+        android:backgroundTint="#3F51B5"
         android:contextClickable="false"
-        android:cursorVisible="false"
-        android:paddingStart="1sp"
-        android:paddingLeft="1sp"
-        android:paddingTop="1sp"
-        android:paddingEnd="1sp"
+        android:onClick="Siguiente"
         android:text="@string/b_ayuda"
         android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/main_Layout" />
+        app:layout_constraintTop_toBottomOf="@+id/button" />
 
     <TextView
         android:id="@+id/textView4"
