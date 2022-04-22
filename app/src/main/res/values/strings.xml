@@ -10,4 +10,8 @@
     <string name="title_home">Home</string>
     <string name="title_perfil">Perfil</string>
     <string name="title_settings">Configuracion</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">HOME</string>
+    <string name="profile_fragment">Perfil</string>
+    <string name="settings_fragment">Ajusted</string>
 </resources>
