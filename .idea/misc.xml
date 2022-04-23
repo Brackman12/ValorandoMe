@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/maris/AndroidStudioProjects/ValorandoMe/app/src/main/res/drawable/ic_baseline_check_circle_24.xml" value="0.2115" />
+        <entry key="..\:/Users/maris/AndroidStudioProjects/ValorandoMe/app/src/main/res/drawable/ic_baseline_check_circle_outline_24.xml" value="0.2115" />
         <entry key="..\:/Users/maris/AndroidStudioProjects/ValorandoMe/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.2065" />
         <entry key="..\:/Users/maris/AndroidStudioProjects/ValorandoMe/app/src/main/res/drawable/ic_baseline_menu_book_24.xml" value="0.2115" />
         <entry key="..\:/Users/maris/AndroidStudioProjects/ValorandoMe/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.2065" />
@@ -13,7 +15,7 @@
         <entry key="..\:/Users/maris/AndroidStudioProjects/ValorandoMe/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/Users/maris/AndroidStudioProjects/ValorandoMe/app/src/main/res/layout/activity_main2.xml" value="0.1675929884566054" />
         <entry key="..\:/Users/maris/AndroidStudioProjects/ValorandoMe/app/src/main/res/layout/activity_menu_principal.xml" value="0.33" />
-        <entry key="..\:/Users/maris/AndroidStudioProjects/ValorandoMe/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/Users/maris/AndroidStudioProjects/ValorandoMe/app/src/main/res/layout/fragment_home.xml" value="0.33" />
         <entry key="..\:/Users/maris/AndroidStudioProjects/ValorandoMe/app/src/main/res/layout/fragment_profile.xml" value="0.1675929884566054" />
         <entry key="..\:/Users/maris/AndroidStudioProjects/ValorandoMe/app/src/main/res/layout/fragment_settings.xml" value="0.1675929884566054" />
         <entry key="..\:/Users/maris/AndroidStudioProjects/ValorandoMe/app/src/main/res/menu/bottom_nav_menu.xml" value="0.33" />

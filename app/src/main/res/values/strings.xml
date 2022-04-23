@@ -10,8 +10,18 @@
     <string name="title_home">Home</string>
     <string name="title_perfil">Perfil</string>
     <string name="title_settings">Configuracion</string>
+    <string name="semana_uno">Semana Uno</string>
+    <string name="semana_dos">Semana Dos</string>
+    <string name="semana_tres">Semana Tres</string>
+    <string name="semana_cuatro">Semana Cuatro</string>
+    <string name="semana_cinco">Semana Cinco</string>
+    <string name="semana_seis">Semana Seis</string>
+    <string name="semana_siete">Semana Siete</string>
+    <string name="semana_ocho">Semana Ocho</string>
+    <string name="semana_nueve">Semana Nueve</string>
+
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">HOME</string>
     <string name="profile_fragment">Perfil</string>
-    <string name="settings_fragment">Ajusted</string>
+    <string name="settings_fragment">Ajustes</string>
 </resources>
