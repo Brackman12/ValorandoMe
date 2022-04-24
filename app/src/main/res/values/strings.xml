@@ -19,6 +19,13 @@
     <string name="semana_siete">Semana Siete</string>
     <string name="semana_ocho">Semana Ocho</string>
     <string name="semana_nueve">Semana Nueve</string>
+    <string name="log_out">Cerrar sesion</string>
+    <string name="name_user">Nombre de Usuario</string>
+    <string name="quien_soy">¿Quien Soy?</string>
+    <string name="update">Editar</string>
+    <string name="delete">Eliminar</string>
+    <string name="que_habilidades">¿Que habilidades tienes?</string>
+    <string name="quien_eres">Este usuario es: Honesto, Respetuoso, Divertido, Razonable, Centenario, Urgido, Sanitizante, celular, musa</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">HOME</string>
