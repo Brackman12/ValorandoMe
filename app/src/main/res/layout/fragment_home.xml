@@ -33,10 +33,10 @@
             android:layout_marginBottom="2dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView3"
-            app:layout_constraintVertical_bias="0.383">
+            app:layout_constraintVertical_bias="0.0">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -80,10 +80,10 @@
                         android:layout_height="match_parent"
                         android:layout_gravity="start|right"
                         android:layout_weight="3"
-                        android:textColor="@color/black"
                         android:fontFamily="sans-serif"
                         android:gravity="center_vertical"
                         android:text="@string/semana_uno"
+                        android:textColor="@color/black"
                         android:textSize="24dp" />
 
                     <ImageButton
@@ -131,10 +131,10 @@
                         android:layout_height="match_parent"
                         android:layout_gravity="start|right"
                         android:layout_weight="3"
-                        android:textColor="@color/black"
                         android:fontFamily="sans-serif"
                         android:gravity="center_vertical"
                         android:text="@string/semana_dos"
+                        android:textColor="@color/black"
                         android:textSize="24dp" />
 
                     <ImageButton
@@ -181,10 +181,10 @@
                         android:layout_height="match_parent"
                         android:layout_gravity="start|right"
                         android:layout_weight="3"
-                        android:textColor="@color/black"
                         android:fontFamily="sans-serif"
                         android:gravity="center_vertical"
                         android:text="@string/semana_tres"
+                        android:textColor="@color/black"
                         android:textSize="24dp" />
 
                     <ImageButton
@@ -233,9 +233,9 @@
                         android:layout_gravity="start|right"
                         android:layout_weight="3"
                         android:fontFamily="sans-serif"
-                        android:textColor="@color/black"
                         android:gravity="center_vertical"
                         android:text="@string/semana_cuatro"
+                        android:textColor="@color/black"
                         android:textSize="24dp" />
 
                     <ImageButton
@@ -283,10 +283,10 @@
                         android:layout_height="match_parent"
                         android:layout_gravity="start|right"
                         android:layout_weight="3"
-                        android:textColor="@color/black"
                         android:fontFamily="sans-serif"
                         android:gravity="center_vertical"
                         android:text="@string/semana_cinco"
+                        android:textColor="@color/black"
                         android:textSize="24dp" />
 
                     <ImageButton
@@ -334,10 +334,10 @@
                         android:layout_height="match_parent"
                         android:layout_gravity="start|right"
                         android:layout_weight="3"
-                        android:textColor="@color/black"
                         android:fontFamily="sans-serif"
                         android:gravity="center_vertical"
                         android:text="@string/semana_seis"
+                        android:textColor="@color/black"
                         android:textSize="24dp" />
 
                     <ImageButton
@@ -385,10 +385,10 @@
                         android:layout_height="match_parent"
                         android:layout_gravity="start|right"
                         android:layout_weight="3"
-                        android:textColor="@color/black"
                         android:fontFamily="sans-serif"
                         android:gravity="center_vertical"
                         android:text="@string/semana_siete"
+                        android:textColor="@color/black"
                         android:textSize="24dp" />
 
                     <ImageButton
@@ -411,11 +411,11 @@
                     android:background="@drawable/shape_dos"
                     android:backgroundTint="#C52C21"
                     android:bottomLeftRadius="10dp"
+                    android:onClick="SiguienteDos"
                     android:orientation="horizontal"
                     android:paddingTop="10dp"
                     android:paddingBottom="10dp"
-                    android:topRightRadius="10dp"
-                    android:onClick="SiguienteDos">
+                    android:topRightRadius="10dp">
 
 
                     <ImageView
@@ -437,10 +437,10 @@
                         android:layout_height="match_parent"
                         android:layout_gravity="start|right"
                         android:layout_weight="3"
-                        android:textColor="@color/black"
                         android:fontFamily="sans-serif"
                         android:gravity="center_vertical"
                         android:text="@string/semana_ocho"
+                        android:textColor="@color/black"
                         android:textSize="24dp" />
 
                     <ImageButton
@@ -463,11 +463,11 @@
                     android:background="@drawable/shape_dos"
                     android:backgroundTint="#5C1C08"
                     android:bottomLeftRadius="10dp"
+                    android:onClick="SiguienteDos"
                     android:orientation="horizontal"
                     android:paddingTop="10dp"
                     android:paddingBottom="10dp"
-                    android:topRightRadius="10dp"
-                    android:onClick="SiguienteDos">
+                    android:topRightRadius="10dp">
 
 
                     <ImageView
@@ -489,10 +489,10 @@
                         android:layout_height="match_parent"
                         android:layout_gravity="start|right"
                         android:layout_weight="3"
-                        android:textColor="@color/black"
                         android:fontFamily="sans-serif"
                         android:gravity="center_vertical"
                         android:text="@string/semana_nueve"
+                        android:textColor="@color/black"
                         android:textSize="24dp" />
 
                     <ImageButton
