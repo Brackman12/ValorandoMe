@@ -35,12 +35,23 @@
     <string name="valor_ocho">Solidaridad</string>
     <string name="valor_nueve">Paciencia</string>
     <string name="quien_eres">Este usuario es: Honesto, Respetuoso, Divertido, Razonable, Centenario, Urgido, Sanitizante, celular, musa</string>
-
-
+    <string name="texto">Nombre</string>
+    <string name="texto1">edad</string>
+    <string name="texto2">direccion</string>
+    <string name="texto3">dias</string>
 
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">HOME</string>
     <string name="profile_fragment">Perfil</string>
     <string name="settings_fragment">Ajustes</string>
+    <string name="title_activity_semana">semana</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
 </resources>

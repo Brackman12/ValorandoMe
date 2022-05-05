@@ -63,13 +63,13 @@ public class Menu_Principal extends AppCompatActivity {
         editar = (Button) findViewById(R.id.prueba4);
         eliminar = (Button) findViewById(R.id.prueba3);
 
-        agregar.setOnClickListener(new View.OnClickListener() {
+        /*agregar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 ejecutarServicio("127.0.0.1:8080/codigophp/insertar.php");
             }
         });
-
+        */
 
 
         binding.bottomNavigationView.setOnItemSelectedListener( item -> {
@@ -99,10 +99,11 @@ public class Menu_Principal extends AppCompatActivity {
     }
 
     public void SiguienteDos(View view){
-        Intent intent = new Intent(this, MainActivity.class);
+        Intent intent = new Intent(this, Semana.class);
         startActivity(intent);
     }
 
+    /*
     private void ejecutarServicio(String URL){
         //Se utiliza el metodo POST ya que se utilizara POST, se le pasa como parametro la URL que se le envía anteriormente y el Response Listenes captura si la operacion es exitosa
         StringRequest stringRequest=new StringRequest(Request.Method.POST, URL, new Response.Listener<String>() {
@@ -127,9 +128,10 @@ public class Menu_Principal extends AppCompatActivity {
         };
         requestQueue= Volley.newRequestQueue(this);
         requestQueue.add(stringRequest);
+
     }
 
-    /*private void buscarRegistro(String URL){
+    private void buscarRegistro(String URL){
         JsonArrayRequest jsonArrayRequest=new JsonArrayRequest(URL, onResponse(response)->{
             JSONObject jsonObject=null;
             for(int i=0; i<response.length(); i++){
@@ -139,8 +141,8 @@ public class Menu_Principal extends AppCompatActivity {
                 }
             }
         };
-    }*/
-
+    }
+*/
 
 
 }

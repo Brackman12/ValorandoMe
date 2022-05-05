@@ -19,4 +19,10 @@
         <item name="itemIconTint">@color/green_light2</item>
         <item name="itemTextColor">@color/green_light2</item>
     </style>
+    <style name="Theme.ValorandoMe.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.ValorandoMe.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="Theme.ValorandoMe.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>
