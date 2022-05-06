@@ -68,8 +68,8 @@ public class Menu_Principal extends AppCompatActivity {
             public void onClick(View view) {
                 ejecutarServicio("127.0.0.1:8080/codigophp/insertar.php");
             }
-        });
-        */
+        });*/
+
 
 
         binding.bottomNavigationView.setOnItemSelectedListener( item -> {
@@ -103,7 +103,7 @@ public class Menu_Principal extends AppCompatActivity {
         startActivity(intent);
     }
 
-    /*
+
     private void ejecutarServicio(String URL){
         //Se utiliza el metodo POST ya que se utilizara POST, se le pasa como parametro la URL que se le envía anteriormente y el Response Listenes captura si la operacion es exitosa
         StringRequest stringRequest=new StringRequest(Request.Method.POST, URL, new Response.Listener<String>() {
@@ -131,7 +131,7 @@ public class Menu_Principal extends AppCompatActivity {
 
     }
 
-    private void buscarRegistro(String URL){
+    /*private void buscarRegistro(String URL){
         JsonArrayRequest jsonArrayRequest=new JsonArrayRequest(URL, onResponse(response)->{
             JSONObject jsonObject=null;
             for(int i=0; i<response.length(); i++){

@@ -21,11 +21,12 @@
             android:paddingRight="10dp"
             android:paddingBottom="10dp">
 
-            <TextView
+
+            <ImageView
                 android:id="@+id/textView12"
                 android:layout_width="match_parent"
-                android:layout_height="200dp"
-                android:background="#FF5722" />
+                android:layout_height="300dp"
+                tools:srcCompat="@drawable/caritasfelices" />
 
             <TextView
                 android:id="@+id/textView13"
@@ -66,18 +67,21 @@
                     android:layout_width="170dp"
                     android:layout_height="105dp"
                     android:layout_marginTop="24dp"
-                    android:text="Button"
+                    android:backgroundTint="#F44336"
+                    android:text="@string/video"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.072"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
+
 
                 <Button
                     android:id="@+id/button5"
                     android:layout_width="170dp"
                     android:layout_height="105dp"
                     android:layout_marginTop="4dp"
-                    android:text="Button"
+                    android:backgroundTint="#4CAF50"
+                    android:text="@string/video3"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.927"
                     app:layout_constraintStart_toStartOf="parent"
@@ -88,7 +92,9 @@
                     android:layout_width="170dp"
                     android:layout_height="105dp"
                     android:layout_marginTop="4dp"
-                    android:text="Button"
+                    android:backgroundTint="#FFEB3B"
+                    android:text="@string/video2"
+                    android:textColor="#000000"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.072"
                     app:layout_constraintStart_toStartOf="parent"
@@ -99,7 +105,7 @@
                     android:layout_width="219dp"
                     android:layout_height="68dp"
                     android:layout_marginTop="252dp"
-                    android:text="Button"
+                    android:text="@string/examen"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -109,7 +115,10 @@
                     android:layout_width="238dp"
                     android:layout_height="118dp"
                     android:layout_marginTop="28dp"
-                    android:text="Button"
+                    android:backgroundTint="#070707"
+                    android:text="@string/ejercicio_practico"
+                    android:textColor="#673AB7"
+                    android:textSize="20sp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.496"
                     app:layout_constraintStart_toStartOf="parent"
@@ -120,7 +129,9 @@
                     android:layout_width="170dp"
                     android:layout_height="105dp"
                     android:layout_marginTop="24dp"
-                    android:text="Button"
+                    android:backgroundTint="#9C27B0"
+                    android:onClick="SiguienteCinco"
+                    android:text="@string/lectura"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.927"
                     app:layout_constraintStart_toStartOf="parent"
@@ -130,5 +141,19 @@
 
         </LinearLayout>
     </ScrollView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="83dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="16dp"
+
+        android:layout_marginTop="16dp"
+        android:onClick="SiguienteTres"
+        android:src="@drawable/ic_baseline_arrow_back_24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck">
+
+    </com.google.android.material.floatingactionbutton.FloatingActionButton>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

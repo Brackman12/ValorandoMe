@@ -39,6 +39,13 @@
     <string name="texto1">edad</string>
     <string name="texto2">direccion</string>
     <string name="texto3">dias</string>
+    <string name="lectura">Lectura</string>
+    <string name="examen">Examen</string>
+    <string name="video">Video</string>
+    <string name="video2">Video 2</string>
+    <string name="video3">Video 3</string>
+    <string name="ejercicio_practico">Ejercicio Practico</string>
+    <string name="atras">Atras</string>
 
 
     <!-- TODO: Remove or change this placeholder text -->

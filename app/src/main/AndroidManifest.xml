@@ -13,6 +13,9 @@
         android:theme="@style/Theme.ValorandoMe"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".Lecturas"
+            android:exported="false" />
+        <activity
             android:name=".Semana"
             android:exported="false" />
         <activity
