@@ -54,14 +54,14 @@ public class Menu_Principal extends AppCompatActivity {
         setContentView(binding.getRoot());
         replaceFragment(new HomeFragment());
 
-        nombre = (EditText) findViewById(R.id.nombres);
+        /*nombre = (EditText) findViewById(R.id.nombres);
         edad = (EditText) findViewById(R.id.eda);
         direccion = (EditText) findViewById(R.id.direccio);
         dia = (EditText) findViewById(R.id.dia);
         agregar = (Button) findViewById(R.id.prueba);
         buscar = (Button) findViewById(R.id.prueba2);
         editar = (Button) findViewById(R.id.prueba4);
-        eliminar = (Button) findViewById(R.id.prueba3);
+        eliminar = (Button) findViewById(R.id.prueba3);*/
 
         /*agregar.setOnClickListener(new View.OnClickListener() {
             @Override

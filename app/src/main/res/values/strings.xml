@@ -50,6 +50,12 @@
     <string name="ejercicio_practico">Ejercicio Practico</string>
     <string name="atras">Atras</string>
     <string name="comentario">El correo electronico solo es para recuperar la cuenta en caso de que se olvide</string>
+    <string name="menu_principal">Menu principal</string>
+    <string name="sobre_valorandome">Sobre valorandoMe</string>
+    <string name="regresar_menu">Regresar Menu Principal</string>
+    <string name="sobre_nosotros">Sobre nosotros</string>
+    <string name="politicas">Politicas de Privacidad</string>
+
 
 
     <!-- TODO: Remove or change this placeholder text -->
