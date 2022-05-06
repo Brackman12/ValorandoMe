@@ -1,9 +1,12 @@
 <resources>
     <string name="app_name">ValorandoMe</string>
     <string name="te_usuario">Usuario</string>
+    <string name="correo">Correo Electronico</string>
     <string name="te_contraseña">Contraseña</string>
     <string name="b_login">Iniciar Sesion</string>
     <string name="b_ayuda">Ayuda</string>
+    <string name="crear">Crear</string>
+    <string name="crear_cuenta">Crear cuenta</string>
     <string name="tv_crear">¿No tienes cuenta? ¡Registrate Aqui!</string>
     <string name="tv_usuario">Usuario</string>
     <string name="title_activity_main2">MainActivity2</string>
@@ -35,7 +38,7 @@
     <string name="valor_ocho">Solidaridad</string>
     <string name="valor_nueve">Paciencia</string>
     <string name="quien_eres">Este usuario es: Honesto, Respetuoso, Divertido, Razonable, Centenario, Urgido, Sanitizante, celular, musa</string>
-    <string name="texto">Nombre</string>
+    <string name="texto">Nombre Y Apellido</string>
     <string name="texto1">edad</string>
     <string name="texto2">direccion</string>
     <string name="texto3">dias</string>
@@ -46,6 +49,7 @@
     <string name="video3">Video 3</string>
     <string name="ejercicio_practico">Ejercicio Practico</string>
     <string name="atras">Atras</string>
+    <string name="comentario">El correo electronico solo es para recuperar la cuenta en caso de que se olvide</string>
 
 
     <!-- TODO: Remove or change this placeholder text -->
