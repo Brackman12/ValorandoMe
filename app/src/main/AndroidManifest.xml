@@ -13,6 +13,12 @@
         android:theme="@style/Theme.ValorandoMe"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".Ejercicio_Practico"
+            android:exported="false" />
+        <activity
+            android:name=".examenes"
+            android:exported="false" />
+        <activity
             android:name=".Lecturas"
             android:exported="false" />
         <activity

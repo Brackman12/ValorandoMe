@@ -22,4 +22,12 @@ public class Semana extends AppCompatActivity {
         Intent intent = new Intent(this, Lecturas.class);
         startActivity(intent);
     }
+    public void SiguienteOcho(View view){
+        Intent intent = new Intent(this, examenes.class);
+        startActivity(intent);
+    }
+    public void SiguienteNueve(View view){
+        Intent intent = new Intent(this, Ejercicio_Practico.class);
+        startActivity(intent);
+    }
 }
