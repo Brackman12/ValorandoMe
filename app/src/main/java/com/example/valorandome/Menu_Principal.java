@@ -102,6 +102,18 @@ public class Menu_Principal extends AppCompatActivity {
         Intent intent = new Intent(this, Semana.class);
         startActivity(intent);
     }
+    public void SiguienteOnce(View view){
+        Intent intent = new Intent(this, Politicas_Privacidad.class);
+        startActivity(intent);
+    }
+    public void SiguienteTrece(View view){
+        Intent intent = new Intent(this, Ayuda.class);
+        startActivity(intent);
+    }
+    public void SiguienteCatorce(View view){
+        Intent intent = new Intent(this, HomeFragment.class);
+        startActivity(intent);
+    }
 
 
     private void ejecutarServicio(String URL){

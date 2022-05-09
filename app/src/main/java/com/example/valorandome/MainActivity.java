@@ -36,6 +36,10 @@ public class MainActivity extends AppCompatActivity {
     Intent intent = new Intent(this, Menu_Principal.class);
     startActivity(intent);
     }
+    public void SiguienteDoce(View view){
+        Intent intent = new Intent(this, Ayuda.class);
+        startActivity(intent);
+    }
 
     private void showDialog(){
         Dialog dialog = new Dialog(this);

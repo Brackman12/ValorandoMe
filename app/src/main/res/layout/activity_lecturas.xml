@@ -49,14 +49,14 @@
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
-                android:layout_height="250dp"
+                android:layout_height="280dp"
                 android:paddingLeft="15dp"
                 android:paddingRight="15dp">
 
                 <TextView
                     android:id="@+id/textView18"
                     android:layout_width="219dp"
-                    android:layout_height="233dp"
+                    android:layout_height="wrap_content"
                     android:gravity="center_vertical"
                     android:text="Lorem ipsum es el texto que se usa habitualmente en diseño gráfico o de moda en demostraciones de tipografías o de borradores de diseño para probar el diseño visual antes de insertar el texto final."
                     android:textSize="18sp"
@@ -78,9 +78,21 @@
                     tools:srcCompat="@drawable/caritasfelices" />
             </androidx.constraintlayout.widget.ConstraintLayout>
 
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:paddingTop="30dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="40dp"
+                android:text="Lorem ipsum es el texto que se usa habitualmente en diseño gráfico o de moda en demostraciones de tipografías o de borradores de diseño para probar el diseño visual antes de insertar el texto final."
+                android:textSize="18sp" />
+
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
-                android:layout_height="250dp"
+                android:layout_height="280dp"
                 android:paddingLeft="15dp"
                 android:paddingRight="15dp">
 
@@ -115,7 +127,7 @@
                 android:layout_height="wrap_content"
                 android:paddingLeft="30dp"
                 android:paddingTop="35dp"
-                android:paddingRight="20dp"
+                android:paddingRight="30dp"
                 android:paddingBottom="15dp"
                 android:text="Lorem ipsum es el texto que se usa habitualmente en diseño gráfico o de moda en demostraciones de tipografías o de borradores de diseño para probar el diseño visual antes de insertar el texto final.       Lorem ipsum es el texto que se usa habitualmente en diseño gráfico o de moda en demostraciones de tipografías o de borradores de diseño para probar el diseño visual antes de insertar el texto final."
                 android:textAlignment="center"
